@@ -1,10 +1,8 @@
 /*
-*/
+ */
 
-const run = (str) => {
-  process.stdout.write(`${str}\n`);
+const eratosthenesSieve = (s) => {
+  return s;
 };
 
-module.exports = run;
-
-run('Testing 1, 2, 3...');
+['hi', 'dude'].map(x => console.log(eratosthenesSieve(x)));

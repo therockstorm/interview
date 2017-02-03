@@ -1,0 +1,15 @@
+/*
+45-min: One of the question asked me to implement a replay test with a pre-recorded JSON file. Basically I just needed to parse the JSON file into HTTP requests, send them to the right address and compare the response with the record.
+Write a function(int[]) -> int that returns the lowest unassigned integer. For example [] -> 1 (empty set), [1] -> 2, [5, 3, 1] -> 2. Basically just sort the array, iterate, and compare current and previous. If there is a gap then that's your number.  
+Write a function which, given the list of currently allocated server numbers, returns the number of the next server to allocate. In addition, you should demonstrate your approach to testing that your function is correct. You may choose to use an existing testing library for your language if you choose, or you may write your own process if you prefer.
+1. Implement a system to keep track of, allocate and deallocate server names  2. Write a name tracking class with two operations, allocate(host_type) and deallocate(hostname). The former should reserve and return the next available hostname, while the latter should release that hostname back into the pool.
+Design an API for tracking events in different clients
+Write a map implementation with a get function that lets you retrieve the value of a key at a particular time. t:0 A =1, t:2 A = 2, get(A, t:1) -> 1, get(A, t:3) -> 2  
+Fix a bug in Backbone
+What parts of the development process don't you like doing
+Design and build a merchant dashboard from scratch in an hour and a half. One was storing Foursquare-style location check-ins and figuring out where a user is at a given time
+How would you design and architect a system that developers can use to run validity/correctness checks in production? (involved coding it as well)
+Implement a key-value store with history (through timestamps)
+Assign unique machine ids given a naming scheme
+Design a system to detect and implement API rate-limiting for a server
+*/

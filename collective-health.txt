@@ -1,0 +1,46 @@
+/*
+How do you name and id for an element in HTML?
+Write a function for identifying anagrams in the language of your choice.
+
+/*You're working with an intern that keeps coming to you with JavaScript code that won't run because the braces, brackets, and parentheses are off. To save you both some time, you decide to write a braces/brackets/parentheses validator.
+Let's say:
+
+'(', '{', '[' are called "openers."
+')', '}', ']' are called "closers."
+
+Write an efficient function that tells us whether or not an input string's openers and closers are properly nested.
+
+Examples:
+"{ [ ] ( ) }" should return True
+"{ [ ( ] ) }" should return False
+"{ [ }" should return False
+
+"a { ! 1" return False
+" a ] " returns False
+true return False
+"{ [ { ( ) } ] }" returns True
+"" returns True
+*/
+
+const properlyNested = (str) => {
+    if (typeof str !== 'string') return False
+    const brackets = [{ open: '{', close '}' }, {}, {}];
+
+    const stack = [];
+    
+    for (let i = 0; i < str; i++) {
+        const char = str.charAt(i);
+        const val = brackets.find(x => x.open === char);
+        if (val) stack.push(val)
+        else {
+            if (stack.length === 0) return false;
+            if (stack[stack.length - 1].close === char) stack.pop();
+            else return false;
+        }
+    }
+    
+    return stack.length === 0;
+}
+
+console.log(properlyNested('{ [ ] ( ) }'));
+*/

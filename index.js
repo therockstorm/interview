@@ -1,8 +1,8 @@
 /*
  */
 
-const eratosthenesSieve = (s) => {
-  return s;
+const run = x => {
+
 };
 
-['hi', 'dude'].map(x => console.log(eratosthenesSieve(x)));
+[].map(x => console.log(run(x)));

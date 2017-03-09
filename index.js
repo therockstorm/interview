@@ -1,5 +1,5 @@
 /*
- */
+*/
 
 const run = x => {
   console.log(x);

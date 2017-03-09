@@ -4,8 +4,6 @@ Given string, determin if it contains an palindrome
 abracecarde
 edracecarba
 
-If entire thing is palindrome, firstHalf.reverse() === lastHalf
-If not, decrease window size by one from left, right, and from both sides and try again
 ...
 On^3
 */

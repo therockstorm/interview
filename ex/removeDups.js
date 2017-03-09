@@ -29,7 +29,7 @@ const removeDuplicates = nums => {
     if (n !== nums[i]) nums[++i] = n;
   });
 
-  return nums.slice(0, ++i);
+  return ++i;
 };
 
 [[1, 1], [1, 2]].map(x => console.log(removeDuplicates(x)));

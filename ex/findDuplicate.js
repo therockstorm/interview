@@ -4,8 +4,6 @@ there must be at least one duplicate value. Find one of them,
 in linear time. If the array is sorted, do it in log(n) time.
 */
 
-const sortNum = (a, b) => a - b;
-
 const runUnsorted = (input) => {
   const s = new Set();
 
@@ -14,6 +12,7 @@ const runUnsorted = (input) => {
     if (s.has(val)) return val;
     s.add(val);
   }
+  return -1;
 };
 
 const runRec = (a, low, high) => {
@@ -23,9 +22,7 @@ const runRec = (a, low, high) => {
   return a[mid] >= mid + 1 ? runRec(a, mid + 1, high) : runRec(a, low, mid - 1);
 };
 
-const run = (input) => {
-  return runRec(input, 0, input.length - 1);
-};
+const run = (input) => runRec(input, 0, input.length - 1);
 
 // n=5, length=6
 console.log(runUnsorted([1, 2, 3, 4, 1, 5]));

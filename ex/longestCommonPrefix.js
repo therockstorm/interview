@@ -8,23 +8,23 @@
 
 const longestCommonPrefix = (strings) => {
   let prefix = '';
-  let i = 0;
-  let j = 0;
+  let strIdx = 0;
+  let charIdx = 0;
   let char = false;
 
   while (true) {
-    const cur = strings[i];
-    if (j >= cur.length) break;
+    const cur = strings[strIdx];
+    if (charIdx >= cur.length) break;
 
-    if (!char) char = cur.charAt(j);
-    else if (cur.charAt(j) !== char) break;
+    if (!char) char = cur.charAt(charIdx);
+    else if (cur.charAt(charIdx) !== char) break;
 
-    if (i === strings.length - 1) {
-      i = 0;
-      j++;
+    if (strIdx === strings.length - 1) {
+      strIdx = 0;
+      charIdx++;
       prefix += char;
       char = false;
-    } else i++;
+    } else strIdx++;
   }
 
   return prefix;

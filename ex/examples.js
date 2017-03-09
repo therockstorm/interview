@@ -54,21 +54,3 @@ const runSos = (input) => {
 
 module.exports = runSos;
 runSos('SOSSOT');
-
-// /////////////////////////////////////////////////////////
-// it('says yo', () => {
-//   const stub = sinon.stub(new Interview());
-//   stub.hi.returns('Yo');
-
-//   assert.equal(stub.hi(), 'Yo');
-// });
-
-// /////////////////////////////////////////////////////////
-const toUnicode = (key) => {
-  let str = '';
-  for (let i = 0; i < key.length; i++) {
-    const u = `000${key.charCodeAt(i).toString(16).toUpperCase()}`.slice(-4);
-    str += `\\u${u}`;
-  }
-  return str;
-};

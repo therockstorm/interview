@@ -1,0 +1,35 @@
+/*
+Given a set of numbers and another number, find all pairs in the set that add up to given number, Given an array of positive and negative integers, find all pairs which add up to a given number
+How would you extract all unique members of a set?
+Describe how you would implement: a basic list of contacts that supports phone, address, email, contact photos with the following functionality: Add, delete, update, view a contact (with different amounts of info based on view), Please write down your answer and include a design or a class diagram.
+prepare a program and present it
+Implement fibonacci
+1) Construct a balanced binary search tree from a sorted array
+2) Reverse a linked List
+3) Return the next in order node in a tree using a reference to a single node.
+4) Find the employees with the highest salary (SQL crap)
+5) Find the employees with the highest salary from every department
+6) Implement an LRU cache
+Design a parking garage/lot
+1. Find loop in a linked list
+2. Design a Lift
+Remove an item from a singly linked list. Next: do it with no additional memory usage
+given a time, find the angle between the minute hand and hour hand for that time on an analog clock
+implement todo application
+mock data, unit test, code coverage
+object oriented questions
+STAR behavioral questions
+cyclomatic complexity of function
+past work exp, challenges, things learned, programming experience, concepts, design patterns
+mvc and other design patterns and implementation details; pros and cons of approaches taken. traversal of arrays, optimization, O-analysis, lists (search, removal), trees (search, traversal, removal, deletion), hashmaps
+web app optimization and debugging; scenarios, challenges, approach/resolution, rendering time, basics of http, javascript internals, single threaded model, etc
+behavioral, personality, cultural fit, challenges, achievements, motivation, interests
+order of construction when instantiating a subclass C whose parent is B whose parent is A. Then asked similar about destruction order, and "why" things work that way
+how to sort a list of Object
+design a HTML 5 page to parse JSON data
+couple of basic SQL questions and Data Modelling
+java Programme to find avg sal per employee based on the case given
+perform a binary tree sort. *They really wanted to make sure I understood recursion
+hi-level nosql concepts
+
+*/
